@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/numeros-portugeis/static/css/main.073c9b0a.css",
-    "main.js": "/numeros-portugeis/static/js/main.f1b2e35e.js",
+    "main.js": "/numeros-portugeis/static/js/main.a4c3b153.js",
     "static/js/787.2c34deef.chunk.js": "/numeros-portugeis/static/js/787.2c34deef.chunk.js",
     "index.html": "/numeros-portugeis/index.html",
     "main.073c9b0a.css.map": "/numeros-portugeis/static/css/main.073c9b0a.css.map",
-    "main.f1b2e35e.js.map": "/numeros-portugeis/static/js/main.f1b2e35e.js.map",
+    "main.a4c3b153.js.map": "/numeros-portugeis/static/js/main.a4c3b153.js.map",
     "787.2c34deef.chunk.js.map": "/numeros-portugeis/static/js/787.2c34deef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.f1b2e35e.js"
+    "static/js/main.a4c3b153.js"
   ]
 }

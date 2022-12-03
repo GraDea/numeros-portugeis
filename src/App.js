@@ -1,22 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import writtenNumber from 'written-number';
 
 function App() {
+  let numero = Math.floor(Math.random() * 30_000);
+  writtenNumber.defaults.lang = "ptPT";
+  let text = writtenNumber(numero)
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Estudar dos nomeros
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+        {numero} - {text}
+      </p>
       </header>
     </div>
   );

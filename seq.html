@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simple Post Page</title>
+    <title>Simple Sequence Diagram</title>
 </head>
 <body>
     <!-- Header Section -->
     <header>
-        <h1>Welcome to the Post Page</h1>
+        <h1>Try to draw sequence diagram</h1>
     </header>
     
     <!-- Textarea and Button Section -->
     <section>
         <form action="http://localhost:5000/sequence" method="post">
-            <label for="postContent">Your Post:</label>
-            <textarea id="postContent" name="postContent" rows="10" cols="30" placeholder="Write your post here..."></textarea>
-            <br>
+            <label for="postContent">Requirements:</label>
+            <br/>
+            <textarea id="postContent" name="postContent" rows="10" cols="300" placeholder="Write your requirements here..."></textarea>
+            <br/>
             <button type="submit">Post</button>
         </form>
     </section>
